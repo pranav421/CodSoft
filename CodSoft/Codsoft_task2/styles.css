@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav h1 img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('https: //www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fphoto-background&psig=AOvVaw1OgLpALfB-cHM0RgL480a9&ust=1709810884397000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNja3o3E34QDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content {
+    color: black;
+    text-align: center;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.services {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.contact {
+    padding: 100px 0;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+nav h1 img {
+    height: 40px;
+    margin-right: 10px;
+}
